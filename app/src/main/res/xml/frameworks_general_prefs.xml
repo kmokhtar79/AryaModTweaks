@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="External Links" />
+
+    <PreferenceScreen
+        android:icon="@drawable/kmokhtar79"
+        android:title="kmokhtar79"
+        android:summary="AryaMod Dev" >
+        <intent
+            android:icon="@drawable/kmokhtar79"
+            android:action="android.intent.action.VIEW"
+            android:data="http://forum.xda-developers.com/member.php?u=4819130" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/xda"
+        android:title="Development Thread"
+        android:summary="Click to visit the forum">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://forum.xda-developers.com/note5/development/rom-aryamod-v1-0-tw-lollipop-official-t3308177" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/gplus"
+        android:title="Google Plus Community"
+        android:summary="Click to visit and join">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://tinyurl.com/hsr3qnp" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="Beats™ Audio"
+        android:summary="Beats by Dr. Dre (Beats),
+is a leading audio brand founded in 2006 by Dr. Dre and Jimmy Iovine. Through its family of world-class consumer headphones, earphones, and speakers, Beats has introduced an entirely new generation to the possibilities of premium sound entertainment. The brand’s continued success helps bring the energy, emotion and excitement of playback in the recording studio back to the listening experience for music lovers worldwide. Beats was acquired by Apple Inc. in July 2014." >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://www.beatsbydre.com/" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="ViPER4Android Audio Effects"
+        android:summary="ViPER’s Audio is an audio enhancing software to provide everyone with better audio experiences in various platforms such as smartphones and PCs.
+
+ViPER’s Audio is founded by Euphy Wong (known as ViPER520). ViPER’s Audio has been a popular audio mod in China. Co-founder Jasper Loo (known as zhuhang) extended its popularity globally through xda-developers forum. It has now gained fame and stand its ground in the audio mod field." >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://vipersaudio.com/blog/?page_id=11" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="DOLBY ATMOS: FEEL EVERY DIMENTION"
+        android:summary="Dolby Atmos, ported from a Lenovo ROM by worstenbrood, transports you into the story with moving audio that flows all around you with breathtaking realism." >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="http://www.dolby.com/us/en/brands/dolby-atmos.html" />
+    </PreferenceScreen>
+
+</PreferenceScreen>

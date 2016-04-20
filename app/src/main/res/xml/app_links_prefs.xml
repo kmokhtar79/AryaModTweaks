@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceScreen
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout="@layout/my_logo" >
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/beat"
+        android:title="Beats Audio"
+        android:summary="">
+        <intent
+            android:targetPackage="com.zloban.beatsfx"
+            android:action="android.intent.category.DEFAULT"
+            android:targetClass="com.zloban.beatsfx.beatsAudioControlPanelActivity" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/viper"
+        android:title="Viper4Android"
+        android:summary="">
+        <intent
+            android:targetPackage="com.vipercn.viper4android_v2"
+            android:action="android.intent.category.DEFAULT"
+            android:targetClass="com.vipercn.viper4android_v2.activity.ViPER4Android" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/dolby"
+        android:title="Dolby Atmos"
+        android:summary="">
+        <intent
+        android:targetPackage="com.atmos.daxappUI"
+        android:action="android.intent.category.DEFAULT"
+        android:targetClass="com.atmos.daxappUI.MainActivity" />
+    </PreferenceScreen>
+
+</PreferenceScreen>
