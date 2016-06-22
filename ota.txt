@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ROM>
+  <RomName>AryaMod</RomName>
+  <VersionName>AryaModV5_S7Edge</VersionName>
+  <VersionNumber type="integer">2016</VersionNumber>
+    <!-- <DirectUrl><![CDATA[XX]]></DirectUrl> -->
+    <!-- Use the above format if your URL has special characters in them, like an (&) ampersand -->
+    <!-- Enter <DirectUrl nil="true" /> or <HttpUrl nil="true" /> to indicate you won't be using a type of URL -->
+    <!-- Direct Link overrides HTTP link -->
+  <DirectUrl nil="true" />
+  <DirectUrl><![CDATA[https://www.dropbox.com/s/2mkzoez1410b2td/AryaModV5_S7Edge.zip?dl=1]]></DirectUrl>
+  <Android>6.0.1</Android>
+  <CheckMD5>0513f7e57c562de4e7a65cd4b5386714</CheckMD5>
+  <FileSize type="integer">1592736069</FileSize>
+  <Developer>Kamy</Developer>
+  <WebsiteURL>http://forum.xda-developers.com/galaxy-note-3/development/rom-aryamod-v1-3-tw-lollipop-5-1-1-t3326976</WebsiteURL>
+  <DonateURL nil="true" />
+  <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
+  <Changelog>### v5:
+
+  # V5 Changes
+##General Changes
+  - Added native S7edge blur effect
+  - Updated framework, air command and edge panel for native blur effect, fake blur is removed
+  - Increased QuickSettings Maximum number to 15 
+  - Updated SoundAlive to MM version for stock lovers
+  - Added ability to bypass initial setup while offline 
+  - Added new font as called GOBOLD
+##ROM Control Changes
+Notification Panel
+  - Any color for Quick connect panel text color 
+  - Restore Stock Colors for Notifications panel toggles, clock and date 
+  -  Touchwiz Page Effect (7 effects)
+  - Swipe rest: Select any activity for left-swipe app target 
+  -  Choose number of columns in settings (single, dual)
+##Aroma Changes
+  - Added 2 camera choices S7edge and Note4
+  - Added 2 launcher choices stock grid, modded grid 6 icons in dock, grid 6x6, smaller icon, both launcher has swipe rest feature  
+  - Added 2 more emojis; EmojiOne and IOS 9.3 flat (6 choice totally) 
+  - Added CSC feature: Switch between LTE or 4G (tricky Samsung but finally found how to do this)
+
+  </Changelog>
+  <AddonCount>1</AddonCount> 
+  <AddonsURL>http://pastebin.com/raw/0fwJuZXL</AddonsURL>
+</ROM>
